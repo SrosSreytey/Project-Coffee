@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt - New Dunw Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="logo">  ☕ New Dunw Coffee </div>
+        <nav>
+            <a href="index.html"> Home </a>
+            <a href="menu.html"> Menu </a>
+            <a href="about.html"> About Us</a>
+            <a href="gallery.html"> Gallery</a>
+            <a href="offers.html">Offers</a>
+            <a href="contact.html"> Contact  </a>
+        </nav>
+        <div class="cart">  🛒</div>
+    </header>
+    <!-- ================= RECEIPT HERO ================= -->
+    <section class="receipt-hero">
+        <h1>  Order Receipt </h1>
+        <p> Thank you for ordering from New Dunw Coffee </p>
+    </section>
+    <!-- ================= RECEIPT ================= -->
+    <section class="receipt-section">
+        <div class="receipt-container">
+            <!-- ================= RECEIPT HEADER ================= -->
+            <div class="receipt-header">
+                <div class="receipt-logo"> ☕</div>
+                <h2>New Dunw Coffee</h2>
+                <p> Coffee & Desserts  </p>
+                <p>Phnom Penh, Cambodia</p>
+                <p>  Tel: 012 345 678</p>
+            </div>
+            <div class="receipt-line"></div>
+            <!-- ================= ORDER INFO ================= -->
+            <div class="receipt-info">
+                <div>
+                    <span>   Order ID  </span>
+                    <strong id="order-id"> #BH000000 </strong>
+                </div>
+                <div>
+                    <span> Date</span>
+                    <strong id="order-date"> 00/00/0000</strong>
+                </div>
+                <div>
+                    <span> Time </span>
+                    <strong id="order-time"> 00:00   </strong>
+                </div>
+            </div>
+            <div class="receipt-line"></div>
+            <!-- ================= CUSTOMER ================= -->
+            <div class="customer-info">
+                <h3>
+                    Customer Information
+                </h3>
+                <div class="customer-input">
+                    <label>Name</label>
+                    <input type="text" id="customer-name" placeholder="Enter your name">
+                </div>
+                <div class="customer-input">
+                    <label>   Phone </label>
+                    <input type="text"id="customer-phone" placeholder="Enter your phone"></div>
+            </div>
+            <div class="receipt-line"></div>
+            <!-- ================= ORDER ITEMS ================= -->
+            <div class="receipt-items">
+                <div class="receipt-items-title">
+                    <span>  Item</span>
+                    <span>  Qty </span>
+                    <span> Total </span>
+                </div>
+                <div id="receipt-items">
+                    <!-- JavaScript will add items here -->
+                </div>
+            </div>
+            <div class="receipt-line"></div>
+            <!-- ================= TOTAL ================= -->
+            <div class="receipt-total">
+                <div>
+                    <span> Subtotal </span>
+                    <strong id="receipt-subtotal">$0.00  </strong>
+                </div>
+                <div>
+                    <span> Tax (10%) </span>
+                    <strong id="receipt-tax">  $0.00 </strong>
+                </div>
+                <div class="grand-total">
+                    <span>  Total </span>
+                    <strong id="receipt-total">  $0.00 </strong>
+                </div>
+            </div>
+            <div class="receipt-line"></div>
+            <!-- ================= PAYMENT ================= -->
+            <div class="receipt-payment">
+                <span>Payment Method</span>
+                <strong id="receipt-payment">  Cash </strong>
+            </div>
+            <!-- ================= THANK YOU ================= -->
+            <div class="thank-you">
+                <div>❤️ </div>
+                <h3> Thank You! </h3>
+                <p>  We hope you enjoy your coffee. </p>
+            </div>
+            <!-- ================= BUTTONS ================= -->
+            <div class="receipt-buttons">
+                <button
+                    onclick="window.print()"
+                    class="print-btn">
+                    🖨 Print Receipt
+                </button>
+                <a
+                    href="menu.html"
+                    class="new-order-btn">
+                    ☕ New Order
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h2>   ☕ New Dunw Coffee </h2>
+                <p> Coffee & Desserts </p>
+            </div>
+            <div class="footer-column">
+                <h3> Quick Links</h3>
+                <a href="index.html">  Home</a>
+                <a href="menu.html">  Menu</a>
+                <a href="about.html">  About Us</a>
+                <a href="gallery.html"> Gallery </a>
+            </div>
+            <div class="footer-column">
+                <h3> Contact Us</h3>
+                <p> 📍 Phnom Penh, Cambodia</p>
+                <p> 📞 012 345 678 </p>
+                <p> ✉️ Newdunw@gmail.com</p>
+            </div>
+            <div class="footer-column">
+                <h3>Opening Hours</h3>
+                <p>
+                    Mon - Fri:
+                    7:00 AM - 9:00 PM
+                </p>
+                <p>
+                    Sat - Sun:
+                    8:00 AM - 10:00 PM
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2026 New Dunw Coffee.
+            All Rights Reserved.
+        </div>
+    </footer>
+    <!-- ================= JAVASCRIPT ================= -->
+    <script src="script.js"></script>
+</body>
+</html>

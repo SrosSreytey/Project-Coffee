@@ -1,0 +1,135 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Register - New Dunw Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="logo"> ☕ New Dunw Coffee</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="offers.html"> Offers</a>
+            <a href="contact.html"> Contact </a>
+        </nav>
+        <div class="cart">
+            <a href="cart.html"> 🛒</a>
+        </div>
+    </header>
+    <!-- ================= REGISTER PAGE ================= -->
+    <main class="auth-page">
+        <div class="auth-container">
+            <!-- ================= LEFT SIDE ================= -->
+            <div class="auth-image">
+                <div class="auth-image-content">
+                    <div class="auth-logo"> ☕ </div>
+                    <h2>  Join New Dunw Coffee</h2>
+                    <p>
+                        Create your account and
+                        enjoy a better coffee experience.
+                    </p>
+                </div>
+            </div>
+            <!-- ================= RIGHT SIDE ================= -->
+            <div class="auth-form-container">
+                <div class="auth-form">
+                    <span class="small-title">NEW DUNW COFFEE</span>
+                    <h1> Create Account </h1>
+                    <p class="auth-description"> Sign up to get started. </p>
+                    <!-- ================= REGISTER FORM ================= -->
+                    <form id="registerForm">
+                        <!-- NAME -->
+                        <div class="form-group">
+                            <label for="registerName"> Full Name</label>
+                            <input  type="text" id="registerName" placeholder="Enter your full name" required>
+                        </div>
+                        <!-- EMAIL -->
+                        <div class="form-group">
+                            <label for="registerEmail"> Email </label>
+                            <input type="email" id="registerEmail" placeholder="Enter your email"required>
+                        </div>
+                        <!-- PHONE -->
+                        <div class="form-group">
+                            <label for="registerPhone">  Phone Number</label>
+                            <input type="text" id="registerPhone"  placeholder="Enter your phone number"required>
+                        </div>
+                        <!-- PASSWORD -->
+                        <div class="form-group">
+                            <label for="registerPassword">   Password </label>
+                            <input type="password" id="registerPassword" placeholder="Create a password" required>
+                        </div>
+                        <!-- CONFIRM PASSWORD -->
+                        <div class="form-group">
+                            <label for="confirmPassword"> Confirm Password </label>
+                            <input type="password" id="confirmPassword"  placeholder="Confirm your password" required>
+                        </div>
+                        <!-- TERMS -->
+                        <div class="register-terms">
+                            <label>
+                                <input type="checkbox"  id="terms"required>  I agree to the
+                                <a href="#">Terms & Conditions    </a>
+                            </label>
+                        </div>
+                        <!-- REGISTER BUTTON -->
+                        <button  type="submit" class="auth-btn"> Create Account </button>
+                    </form>
+                    <!-- LOGIN -->
+                    <div class="auth-divider">
+                        <span> Already have an account? </span>
+                    </div>
+                    <a href="login.html" class="register-link"> Login to Your Account  </a>
+                    <!-- BACK HOME -->
+                    <a   href="index.html" class="back-home"> ← Back to Home </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h2> ☕ New Dunw Coffee</h2>
+                <p>  Coffee & Desserts </p>
+            </div>
+            <div class="footer-column">
+                <h3> Quick Links</h3>
+                <a href="index.html"> Home </a>
+                <a href="menu.html">Menu </a>
+                <a href="about.html">  About Us </a>
+                <a href="gallery.html"> Gallery </a>
+            </div>
+            <div class="footer-column">
+                <h3> Contact Us </h3>
+                <p>📍 Phnom Penh, Cambodia </p>
+                <p> 📞 012 345 678  </p>
+                <p> ✉️ Newdunw@gmail.com </p>
+            </div>
+            <div class="footer-column">
+                <h3>
+                    Opening Hours
+                </h3>
+                <p>
+                    Mon - Fri:
+                    7:00 AM - 9:00 PM
+                </p>
+                <p>
+                    Sat - Sun:
+                    8:00 AM - 10:00 PM
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2026New Dunw Coffee.
+            All Rights Reserved.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

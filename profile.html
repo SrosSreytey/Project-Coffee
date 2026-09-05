@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - New Dunw Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="logo">☕ New Dunw Coffee </div>
+        <nav>
+            <a href="index.html">Home </a>
+            <a href="menu.html"> Menu </a>
+            <a href="about.html"> About Us</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="offers.html">Offers </a>
+            <a href="contact.html"> Contact</a>
+        </nav>
+        <div class="cart">
+            <a href="cart.html"> 🛒 </a>
+        </div>
+    </header>
+    <!-- ================= PROFILE HERO ================= -->
+    <section class="profile-hero">
+        <div>
+            <span>  NEW DUNW COFFEE</span>
+            <h1> My Profile</h1>
+            <p> Manage your account and view your orders. </p>
+        </div>
+    </section>
+    <!-- ================= PROFILE ================= -->
+    <main class="profile-section">
+        <div class="profile-container">
+            <!-- ================= PROFILE CARD ================= -->
+            <div class="profile-card">
+                <div class="profile-avatar">👤</div>
+                <h2 id="profileName"> User Name </h2>
+                <p id="profileEmail"> user@email.com</p>
+                <div class="profile-buttons">
+                    <button onclick="logoutUser()"class="logout-btn"> Logout </button>
+                    <a href="menu.html"class="order-btn">Order Coffee </a>
+                </div>
+            </div>
+            <!-- ================= ACCOUNT INFORMATION ================= -->
+            <div class="account-card">
+                <div class="card-header">
+                    <div>
+                       <span class="small-title">  ACCOUNT</span>
+                        <h2> Personal Information </h2>
+                    </div>
+                </div>
+                <div class="account-info">
+                    <div class="info-row">
+                        <span>   Full Name</span>
+                        <strong id="accountName">  -</strong>
+                    </div>
+                    <div class="info-row">
+                        <span> Email</span>
+                        <strong id="accountEmail"> -</strong>
+                    </div>
+                    <div class="info-row">
+                        <span> Phone Number</span>
+                        <strong id="accountPhone"> -</strong>
+                    </div>
+                </div>
+            </div>
+            <!-- ================= ORDER HISTORY ================= -->
+            <div class="orders-card">
+                <div class="card-header">
+                    <div>
+                        <span class="small-title">  MY ORDERS </span>
+                        <h2>    Order History </h2>
+                    </div>
+                    <a href="cart.html" class="view-cart-btn">View Cart </a>
+                </div>
+                <!-- ORDER LIST -->
+                <div id="orderHistory"class="order-history">
+                    <div class="empty-orders">
+                        <div>  🧾</div>
+                        <h3> No Orders Yet</h3>
+                        <p> You haven't placed any orders yet.</p>
+                        <a href="menu.html">Start Shopping </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ================= CTA ================= -->
+    <section class="profile-cta">
+        <div>
+            <h2> Ready for Your Next Coffee?</h2>
+            <p> Explore our menu and order your favorite drink. </p>
+            <a href="menu.html">  Explore Menu
+            </a>
+        </div>
+    </section>
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h2>  ☕ New Dunw Coffee</h2>
+                <p> Coffee & Desserts</p>
+            </div>
+            <div class="footer-column">
+                <h3> Quick Links</h3>
+                <a href="index.html">Home </a>
+                <a href="menu.html"> Menu</a>
+                <a href="about.html">About Us</a>
+                <a href="gallery.html">Gallery </a>
+                <a href="offers.html"> Offers</a>
+            </div>
+            <div class="footer-column">
+                <h3> Contact Us</h3>
+                <p> 📍 Phnom Penh, Cambodia</p>
+                <p>  📞 012 345 678</p>
+                <p> ✉️ Newdunw@gmail.com</p>
+            </div>
+            <div class="footer-column">
+                <h3> Opening Hours</h3>
+                <p>
+                    Mon - Fri:
+                    7:00 AM - 9:00 PM
+                </p>
+                <p>
+                    Sat - Sun:
+                    8:00 AM - 10:00 PM
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2026 New Dunw Coffee.
+            All Rights Reserved.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

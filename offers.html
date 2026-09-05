@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Offers - New Dunw Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="logo"> ☕ New Dunw Coffee</div>
+        <nav>
+            <a href="index.html">  Home  </a>
+            <a href="menu.html">  Menu</a>
+            <a href="about.html"> About Us </a>
+            <a href="gallery.html"> Gallery </a>
+            <a href="offers.html"> Offers</a>
+            <a href="contact.html"> Contact </a>
+        </nav>
+        <div class="cart">
+            <a href="cart.html"> 🛒</a>
+        </div>
+    </header>
+    <!-- ================= OFFERS HERO ================= -->
+    <section class="offers-hero">
+        <div class="offers-hero-content">
+            <span> SPECIAL FOR YOU  </span>
+            <h1>  Special Offers  </h1>
+            <p>
+                Enjoy delicious coffee and desserts
+                at a special price.
+            </p>
+        </div>
+    </section>
+    <!-- ================= SPECIAL OFFERS ================= -->
+    <section class="offers-section">
+        <div class="section-title">
+            <span class="small-title"> DON'T MISS OUT </span>
+            <h2> Today's Special Offers </h2>
+            <p>
+                Treat yourself with our favorite
+                coffee and dessert combinations.
+            </p>
+        </div>
+        <!-- ================= OFFER CARDS ================= -->
+        <div class="offers-container">
+            <!-- OFFER 1 -->
+            <div class="offer-card">
+                <div class="offer-image">
+                    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSezhYen9x31iKlDtlp16L7si7wYIrKW0-wZS0ZQD2-xg&s=10" alt="Cappuccino">
+                    <span class="discount"> 20% OFF  </span>
+                </div>
+                <div class="offer-content">
+                    <span class="offer-type"> COFFEE SPECIAL </span>
+                    <h3>Cappuccino Delight </h3>
+                    <p>
+                        Enjoy our creamy cappuccino
+                        with a delicious coffee aroma.
+                    </p>
+                    <div class="offer-price">
+                        <span class="old-price"> $3.00 </span>
+                        <strong> $2.40 </strong>
+                    </div>
+                    <button onclick="applyOffer('Cappuccino',2.40,'https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?auto=format&fit=crop&w=500&q=80' )">Add to Cart</button>
+                </div>
+            </div>
+            <!-- OFFER 2 -->
+            <div class="offer-card">
+                <div class="offer-image">
+                    <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80" alt="Cheesecake">
+                    <span class="discount"> 15% OFF</span>
+                </div>
+                <div class="offer-content">
+                    <span class="offer-type"> DESSERT SPECIAL </span>
+                    <h3> Cheesecake Treat </h3>
+                    <p>
+                        Enjoy a creamy cheesecake
+                        with your favorite drink.
+                    </p>
+                    <div class="offer-price">
+                        <span class="old-price"> $4.00 </span>
+                        <strong>  $3.40 </strong>
+                    </div>
+                    <button onclick="applyOffer( 'Cheesecake', 3.40,'https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=500&q=80' )" > Add to Cart </button>
+                </div>
+            </div>
+            <!-- OFFER 3 -->
+            <div class="offer-card">
+                <div class="offer-image">
+                    <img  src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80" alt="Iced Latte">
+                    <span class="discount"> 25% OFF</span>
+                </div>
+                <div class="offer-content">
+                    <span class="offer-type"> SUMMER SPECIAL</span>
+                    <h3>Iced Latte </h3>
+                    <p>
+                        Cool down with our refreshing
+                        and creamy iced latte.
+                    </p>
+                    <div class="offer-price">
+                        <span class="old-price">$3.50 </span>
+                        <strong> $2.60 </strong>
+                    </div>
+                    <button onclick="applyOffer('Iced Latte', 2.60,'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=500&q=80' )"> Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================= COMBO DEAL ================= -->
+    <section class="combo-section">
+        <div class="combo-image">
+           <img src="https://sfbaycoffee.com/cdn/shop/articles/SFB_LFS_CoffeePairings-blog_c009c117-0c02-41ff-a0f4-193a2cac7b75.jpg?v=17732575770" alt="Coffee combo">
+        </div>
+        <div class="combo-content">
+            <span class="small-title"> LIMITED TIME</span>
+            <h2> Coffee & Dessert Combo </h2>
+            <p>
+                Get one coffee and one dessert
+                together for only
+                <strong>$5.00</strong>.
+            </p>
+            <div class="combo-items">
+                <span> ☕ Any Coffee</span>
+                <span>   +​ </span>
+                <span>  🍰 Any Dessert </span>
+            </div>
+            <p class="combo-note">
+                Available every day from
+                2:00 PM - 6:00 PM.
+            </p>
+            <a href="menu.html"class="combo-btn">Order Combo </a>
+        </div>
+    </section>
+    <!-- ================= PROMO CODE ================= -->
+    <section class="promo-section">
+        <div class="promo-container">
+            <div class="promo-icon">🎁</div>
+            <div class="promo-content">
+                <span class="small-title">SAVE MORE </span>
+                <h2> Get 10% Off Your Next Order</h2>
+                <p>
+                    Use our special promo code
+                    when you place your next order.
+                </p>
+                <div class="promo-code">
+                    <span>BREW10
+                    </span>
+                    <button
+                        onclick="copyPromoCode()"> Copy Code
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================= CTA ================= -->
+    <section class="offers-cta">
+        <div>
+            <h2> Your Favorite Coffee Is Waiting </h2>
+            <p>
+                Explore our full menu and find
+                something delicious today.
+            </p>
+            <a href="menu.html"> View Full Menu </a>
+        </div>
+    </section>
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h2>☕ Brew Haven</h2>
+                <p>Coffee & Desserts</p>
+                <div class="social">
+                    Facebook &nbsp;
+                    Instagram &nbsp;
+                    TikTok
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3> Quick Links</h3>
+                <a href="index.html">Home </a>
+                <a href="menu.html"> Menu </a>
+                <a href="about.html">About Us </a>
+                <a href="gallery.html">Gallery</a>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p> 📍 Phnom Penh, Cambodia </p>
+                <p>📞 012 345 678 </p>
+                <p> ✉️ Newdunw@gmail.com </p>
+            </div>
+            <div class="footer-column">
+                <h3>
+                    Opening Hours
+                </h3>
+                <p>
+                    Mon - Fri:
+                    7:00 AM - 9:00 PM
+                </p>
+                <p>
+                    Sat - Sun:
+                    8:00 AM - 10:00 PM
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2026 New Dunw Coffee.
+            All Rights Reserved.
+        </div>
+    </footer>
+    <!-- ================= JAVASCRIPT ================= -->
+    <script src="script.js"></script>
+</body>
+</html>
