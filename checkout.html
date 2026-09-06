@@ -11,256 +11,101 @@
     <header class="navbar">
         <div class="logo">☕ New Dunw Coffee</div>
         <nav>
-
             <a href="index.html">Home</a>
-
             <a href="menu.html">Menu</a>
-
             <a href="about.html">About Us</a>
-
             <a href="gallery.html">Gallery</a>
-
             <a href="offers.html">Offers</a>
-
             <a href="contact.html">Contact</a>
-
         </nav>
-
-
         <div class="cart">
-
-            <a href="cart.html">
-                🛒
-            </a>
-
+            <a href="cart.html">🛒 </a>
         </div>
-
     </header>
-
-
-
     <!-- ================= HERO ================= -->
-
     <section class="checkout-hero">
-
         <div>
-
-            <span>
-                NEW DUNW COFFEE
+            <span>NEW DUNW COFFEE
             </span>
-
-            <h1>
-                Checkout
-            </h1>
-
-            <p>
-                Complete your order and enjoy your coffee.
-            </p>
-
+            <h1> Checkout</h1>
+            <p> Complete your order and enjoy your coffee. </p>
         </div>
-
     </section>
-
-
-
     <!-- ================= CHECKOUT ================= -->
-
     <main class="checkout-section">
-
-
         <div class="checkout-container">
-
-
             <!-- ================= CUSTOMER INFORMATION ================= -->
-
             <div class="checkout-card">
-
-
                 <div class="checkout-title">
-
-                    <span class="small-title">
-                        STEP 1
+                    <span class="small-title"> STEP 1
                     </span>
-
-                    <h2>
-                        Customer Information
-                    </h2>
-
+                    <h2>Customer Information</h2>
                 </div>
-
-
-
                 <form id="checkoutForm">
-
-
                     <div class="form-row">
-
-
                         <div class="form-group">
-
-                            <label for="checkoutName">
-                                Full Name
-                            </label>
-
-                            <input
-                                type="text"
-                                id="checkoutName"
-                                placeholder="Enter your name"
-                                required>
-
+                            <label for="checkoutName"> Full Name </label>
+                            <input type="text" id="checkoutName"placeholder="Enter your name" required>
                         </div>
-
-
                         <div class="form-group">
-
-                            <label for="checkoutPhone">
-                                Phone Number
+                            <label for="checkoutPhone"> Phone Number
                             </label>
-
-                            <input
-                                type="text"
-                                id="checkoutPhone"
-                                placeholder="Enter your phone"
-                                required>
-
+                            <input type="text" id="checkoutPhone" placeholder="Enter your phone" required>
                         </div>
-
                     </div>
-
-
-
                     <!-- ================= ORDER TYPE ================= -->
-
                     <div class="checkout-title checkout-subtitle">
-
-                        <span class="small-title">
-                            STEP 2
+                        <span class="small-title"> STEP 2
                         </span>
-
-                        <h2>
-                            Order Type
-                        </h2>
-
+                        <h2>Order Type </h2>
                     </div>
-
-
                     <div class="order-type">
-
                         <label class="type-option">
-
-                            <input
-                                type="radio"
-                                name="orderType"
-                                value="Pickup"
-                                checked>
-
-                            <span>
-                                🏪 Pickup
-                            </span>
-
+                            <input type="radio"name="orderType"value="Pickup" checked>
+                            <span>🏪 Pickup</span>
                         </label>
-
-
                         <label class="type-option">
-
-                            <input
-                                type="radio"
-                                name="orderType"
-                                value="Delivery">
-
-                            <span>
-                                🛵 Delivery
-                            </span>
-
+                            <input type="radio"name="orderType"value="Delivery">
+                            <span> 🛵 Delivery</span>
                         </label>
-
                     </div>
-
-
-
                     <!-- ================= ADDRESS ================= -->
-
-                    <div
-                        class="form-group"
-                        id="addressGroup">
-
-                        <label for="checkoutAddress">
-                            Delivery Address
-                        </label>
-
-                        <textarea
-                            id="checkoutAddress"
-                            rows="3"
-                            placeholder="Enter your delivery address"></textarea>
+                    <div class="form-group" id="addressGroup">
+                        <label for="checkoutAddress"> Delivery Address</label>
+                        <textarea id="checkoutAddress" rows="3" placeholder="Enter your delivery address"></textarea>
                     </div>
                     <!-- ================= PAYMENT ================= -->
                     <div class="checkout-title checkout-subtitle">
-                        <span class="small-title">
-                            STEP 3
+                        <span class="small-title">STEP 3
                         </span>
-                        <h2>
-                            Payment Method
-                        </h2>
+                        <h2>Payment Method</h2>
                     </div>
                     <div class="payment-methods">
                         <label class="payment-option">
-                            <input
-                                type="radio"
-                                name="payment"
-                                value="Cash"
-                                checked>
-                            <span>
-                                💵 Cash
-                            </span>
-                        </label>
-
-                        <label class="payment-option">
-
-                            <input
-                                type="radio"
-                                name="payment"
-                                value="ABA Pay">
-
-                            <span>
-                                🏦 ABA Pay
-                            </span>
+                            <input type="radio" name="payment" value="Cash" checked>
+                            <span> 💵 Cash </span>
                         </label>
                         <label class="payment-option">
-                            <input
-                                type="radio"
-                                name="payment"
-                                value="Credit Card">
-
-                            <span>
-                                💳 Card
-                            </span>
+                            <input type="radio" name="payment" value="ABA Pay">
+                            <span>  🏦 ABA Pay </span>
+                        </label>
+                        <label class="payment-option">
+                            <input  type="radio" name="payment" value="Credit Card">
+                            <span> 💳 Card</span>
                         </label>
                     </div>
-                    <button
-                        type="submit"
-                        class="place-order-btn">
-                        Place Order
-                    </button>
+                    <button type="submit" class="place-order-btn">Place Order</button>
                 </form>
             </div>
             <!-- ================= ORDER SUMMARY ================= -->
             <div class="checkout-summary">
                 <div class="checkout-title">
-                    <span class="small-title">
-                        YOUR ORDER
-                    </span>
-
-                    <h2>
-                        Order Summary
-                    </h2>
-
+                    <span class="small-title">  YOUR ORDER</span>
+                    <h2>  Order Summary </h2>
                 </div>
-                <div id="checkoutItems"class="checkout-items">
-                </div>
+                <div id="checkoutItems"class="checkout-items"></div>
                 <div class="summary-line">
-                    <span>
-                        Subtotal
-                    </span>
+                    <span> Subtotal</span>
                     <strong id="checkoutSubtotal"> $0.00</strong>
                 </div>
                 <div class="summary-line">
@@ -268,12 +113,8 @@
                     <strong id="checkoutDelivery">$0.00</strong>
                 </div>
                 <div class="summary-total">
-                    <span>
-                        Total
-                    </span>
-                    <strong id="checkoutTotal">
-                        $0.00
-                    </strong>
+                    <span> Total</span>
+                    <strong id="checkoutTotal"> $0.00</strong>
                 </div>
             </div>
         </div>
@@ -282,59 +123,25 @@
     <footer>
         <div class="footer-container">
             <div class="footer-column">
-                <h2>
-                    ☕ New Dunw Coffee
-                </h2>
-                <p>
-                    Coffee & Desserts
-                </p>
+                <h2> ☕ New Dunw Coffee</h2>
+                <p> Coffee & Desserts</p>
             </div>
             <div class="footer-column">
-                <h3>
-                    Quick Links
-                </h3>
-
-                <a href="index.html">
-                    Home
+                <h3> Quick Links</h3>
+                <a href="index.html">  Home </a>
+                <a href="menu.html">  Menu </a>
+                <a href="about.html">   About Us </a>
+                <a href="contact.html"> Contact
                 </a>
-
-                <a href="menu.html">
-                    Menu
-                </a>
-
-                <a href="about.html">
-                    About Us
-                </a>
-
-                <a href="contact.html">
-                    Contact
-                </a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h3>
-                    Contact Us
-                </h3>
-
-                <p>
-                    📍 Phnom Penh, Cambodia
-                </p>
-
-                <p>
-                    📞 012 345 678
-                </p>
-
-                <p>
-                    ✉️ brewhaven@gmail.com
-                </p>
             </div>
             <div class="footer-column">
-                <h3>
-                    Opening Hours
-                </h3>
+                <h3> Contact Us</h3>
+                <p>📍 Phnom Penh, Cambodia </p>
+                <p> 📞 012 345 678</p>
+                <p>  ✉️ brewhaven@gmail.com</p>
+            </div>
+            <div class="footer-column">
+                <h3> Opening Hours</h3>
                 <p>
                     Mon - Fri:
                     7:00 AM - 9:00 PM
@@ -351,8 +158,6 @@
         </div>
     </footer>
     <script src="script.js"></script>
-
 </body>
-
 </html>
 
